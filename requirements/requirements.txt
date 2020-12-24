@@ -1,0 +1,14 @@
+Tell each person in household what they owe from their portion of the CSA box order, including proportional share of delivery fee. (Default delivery fee $4.99, but make adjustable) Share of delivery fee is set by $ value of items ordered.
+
+Ingest data in the form of a .csv file, data structure: PersonName, OrderItem, UnitQuantity, UnitListPrice
+
+Display order total to reconcile with actual bill (to highlight case items were ordered but "unclaimed")
+
+Option to apply discount on all list prices, default to 33% (does not apply to delivery fee)
+
+Option to add sales tax, for users in locations where sales tax applies to food (tax does not apply to delivery fee)
+
+Option of free delivery above certain order $ threshold (calculated based on total price after any discounts, not including delivery fee)
+
+
+
