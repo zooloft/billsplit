@@ -1,8 +1,8 @@
-Tell each person in household what they owe from their portion of the CSA box order, including proportional share of delivery fee. (Default delivery fee $4.99, but make adjustable) Share of delivery fee is set by $ value of items ordered.
+Following user self-reporting in a sheet, tell each person in household what they owe from their portion of the groceries box order, including proportional share of delivery fee. (Default delivery fee $4.99, but make adjustable) Share of delivery fee is set by $ value of items ordered.
 
 Ingest data in the form of a .csv file, data structure: PersonName, OrderItem, UnitQuantity, UnitListPrice
 
-Display order total to reconcile with actual bill (to highlight case items were ordered but "unclaimed")
+Display reported order total to reconcile with actual bill (to highlight case in which items were actually ordered but not self-reported)
 
 Option to apply discount on all list prices, default to 33% (does not apply to delivery fee)
 
